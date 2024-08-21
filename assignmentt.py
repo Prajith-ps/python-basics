@@ -31,3 +31,68 @@
 # b=int(input("enter a number"))
 # a=x+b
 # print(a)
+
+# 1 transpose of matrix
+# def transpose_matrix(matrix):
+#     transposed=[[matrix[j][i]
+#     for j in range(len(matrix))]
+#     for i in range(len(matrix[0]))]
+#     return transposed
+# matrix=[
+#    [1,2,3],
+#    [4,5,6],
+#    [7,8,9]
+# ]       
+# print("original matrix:")
+# for row in matrix:
+#    print(row)
+
+# transposed=transpose_matrix(matrix)
+
+# print("/transpose matrix:")
+# for row in transposed:
+#    print(row)
+
+# 2 Write a program to find the sum of all the elements in a list.
+
+# list1=[1,2,3,4,5]
+# total_sum=sum(list1)
+# print(total_sum)
+
+#3 program to list comprehenion
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# newlist = []
+
+# for x in fruits:
+#   if "a" in x:
+#     newlist.append(x)
+
+# print(newlist)
+  
+
+#4 to add a ket to dictonary
+
+# d = {0: 10, 1: 20}
+# print(d)
+# d.update({2: 30})
+# print(d)
+
+
+#5  
+# number=(1,2,3,4,5,6,7,8,)
+# num = [x for x in number if x % 2 != 0]
+# print(num)
+
+
+#6 Write a Python program to sum all the items in a dictionary.
+
+# def returnSum(myDict):
+ 
+#     list = []
+#     for i in myDict:
+#         list.append(myDict[i])
+#     final = sum(list)
+ 
+#     return final
+# dict = {'a': 100, 'b': 200, 'c': 300}
+# print("Sum :", returnSum(dict))
