@@ -96,3 +96,26 @@
 #     return final
 # dict = {'a': 100, 'b': 200, 'c': 300}
 # print("Sum :", returnSum(dict))
+
+#7 Write a Python program to generate and print a list of first and last 5 elements where the values are square of numbers between 1 and 30
+
+# def printValues():
+#     # Create an empty list 'l'
+#     l = list()
+#     for i in range(1, 21):
+#         l.append(i**2)
+#     print(l[:5])
+#     print(l[-5:])
+# printValues()
+
+
+#8Write a program that accepts sequence of lines as input and prints the lines after making all characters in the sentence capitalized
+# lines = []
+# while True:
+#     line = input()
+#     if line == "":
+#         break
+#     lines.append(line)
+
+# for line in lines:
+#     print(line.upper())
