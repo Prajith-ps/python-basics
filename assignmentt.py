@@ -119,3 +119,64 @@
 
 # for line in lines:
 #     print(line.upper())
+
+#9 Define a class which has at least two methods one, to get a string from console  
+# input and other is to print the string in uppercase.
+
+# class StringManipulator:
+#     def __init__(self):
+#         self.text = ""
+
+#     def get_input(self):
+#         self.text = input("Enter a string: ")
+
+#     def print_uppercase(self):
+#         print(self.text.upper())
+# obj=StringManipulator()
+# obj.get_input()
+# obj.print_uppercase()
+
+
+# 10  Define a class, which have a class parameter and have a same instance parameter.
+# class Example:
+#     parameter = "Class Parameter"  # Class parameter
+
+#     def __init__(self, parameter):
+#         self.parameter = parameter  # Instance parameter
+
+#     def show_parameters(self):
+#         print(f"Class Parameter: {Example.parameter}")
+#         print(f"Instance Parameter: {self.parameter}")
+# obj = Example("Instance Parameter Value")
+# obj.show_parameters()
+
+
+#11 Define a class named Circle which can be constructed by radius. The Circle class has a method which can compute the area.
+# import math
+
+# class Circle:
+#     def __init__(self, radius):
+#         self.radius = radius
+
+#     def area(self):
+#         return math.pi * (self.radius ** 2)
+# x=int(input("enter the num"))
+# my_circle = Circle(x)
+# print("Area of the circle:", my_circle.area())
+
+
+#12 Define a class named BankAccount. This class should contain methods withdraw() and deposit to calculate the balance amount remained in your account.
+
+class bankaccount:
+    def __init__(self,account_number,balance):
+        self.account_number=account_number
+        self.balance=balance
+    def display_balance(self):
+        print("balance:",self.balance)
+    def display_account_number(self):
+        print("account_number:",self.account_number)
+x=int(input("enter bank ac number"))
+b=bankaccount(x,566746)
+b.display_balance()
+b.display_account_number()
+
